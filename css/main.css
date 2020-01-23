@@ -102,45 +102,87 @@ textarea {
 {
   display: flex;
   flex-direction: column;
-  background-color: #83807d;
+  background-color: #021c2b;
   width: 30%;
+  
 }
 .flex-container > div
 {
-  background-color: #83807d;
+  background-color: #021c2b;
   width: 90%;
   margin: 10px;
   text-align: left;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 .total
 {
   display: flex;
   flex-wrap: nowrap;
-  border: rgb(223, 128, 128) 1px solid;
+  border: #a2d0bb 1px solid;
   border-radius: 5% 5% 5% 5%;
   margin-right: 100px;
   margin-left: 100px;
-
+  background-color:#39635f;
+  font-size: 15px;
+  color: white;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 .photo
 {
-  width: 25%;
+  width: 30%;
 }
 .title
 {
   position: relative;
   left: 350px;
 }
+.subtitle
+{
+  position: relative;
+  left: 350px;
+  text-decoration: underline; 
+}
+.subtitle1
+{
+  position: relative;
+  left: 300px;
+  text-decoration: underline; 
+}
+.subtitle2
+{
+  position: relative;
+  left : 100px;
+  text-decoration: underline;
+}
+.flexwrap
+{
+  display: flex;
+  flex-wrap: nowrap;
 
+}
+.rightposition
+{
+  left: 10px;
+  width: 35%;
+}
+.linkmail
+{
+  position: relative;
+  left: 350px;
+  color:#f28d01;
+}
+.linkgit
+{
+  color:#f28d01;
+}
 .skill
 {
   text-decoration: underline;
 }
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
